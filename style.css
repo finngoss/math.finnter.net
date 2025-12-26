@@ -3,3 +3,21 @@
     flex-direction: row;
     gap: 10px;
 }
+
+dt{
+    font-size:large;
+    margin-top: 0.5rem; 
+}
+
+dt::before{
+      content: "❦";
+      padding-right: 0.5rem;
+}
+
+dd{
+    font-size:medium;
+}
+dd::before{
+    content: "❧";
+    padding-right: 0.4rem;
+}
