@@ -1,3 +1,7 @@
+html{
+    background-color: azure;
+}
+
 #navbar{
     display: flex;
     flex-direction: row;
