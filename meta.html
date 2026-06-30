@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>meta.html</title>
+	</head>
+	<body>
+		<h1>metamathematame</h1>
+		<p>This page exists to keep track of how I run my math website, <a href="https://math.finnter.net">math.finnter.net</a>.</p>
+
+		<h2>Domain + Hosting</h2>
+		<p>The basics behind how I run my website.</p>
+		<ul>
+			<li>I register my domain 'finnter.net' with <a href="https://www.dreamhost.com">DreamHost</a> for $19.99/year. This is the only part of the entire process that costs anything.</li>
+			<li>All of my source code lives in the main branch of this <a href="https://https://github.com/finngoss/math.finnter.net">GitHub repository</a>.</li>
+			<li>I use GitHub Pages configured with a custom domain name. I set my DNS records in Dreamhost to use <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain">GitHub's DNS records</a>, as well as a CNAME record to create the 'math' subdomain.</li>
+		</ul>
+
+		<h2>Personal Development Environment</h2>
+		<p>I am slowly but surely becoming more efficient and powerful with Linux!</p>
+		<ul>
+			<li>Currently I'm running <a href="https://archlinux.org">Arch Linux</a> with the <a href="https://cachyos.org">CachyOS</a> distribution.</li>
+			<li>I use the <a href="https://hypr.land">Hyprland</a> window manager and Wayland compositor to build the desktop environment on my <a href="https://frame.work">Framework</a> laptop 13.</li>
+			<li>I use <a href="https://neovim.io">Neovim</a> as my code editor/development environment. Because I'm a beginner, I've only been tinkering around with the <a href="https://github.com/nvim-lua/kickstart.nvim">Kickstart<t</a> configuration.</li>
+			<li>I am also new to the Lua language, which both Hyprland and Neovim configurations use. I started with <a href="https://learnxinyminutes.com/lua/">this short tutorial</a> which links to more robust resources.</li>
+			<li>Whenever I want to publish changes to my website, I just run commit my local directory for 'math.finnter.net' to GitHub and within minutes the changes are online!</li>
+		</ul>
+		
+		<h2>Blog Architecture</h2>
+		<p>My math blog is a little more complicated than the text editor + push to GitHub combination I use for the other pages.</p>
+		<ul>
+			<li>I write most of my markdown and LaTeX notes inside of <a href="https://obsidian.md/">Obsidian</a> because I love how easy it is to contextually relate posts with using its [[wikilinks]].</li>
+			<li>I then use the static-site generator <a href="https://quartz.jzhao.xyz/">Quartz</a> to transform the markdown files in my Obsidian repository into html with working wikilinks, backlinks, and graph view.</li>
+			<li>Some of my posts require more than markdown, as I often enjoy including computations or graphs while exploring a new topic. For this, I use the <a href="https://quarto.org/">Quarto</a> publishing system (no relation to Quartz, funnily enough. Quarto runs .qmd files, which are like markdown files only they also give you the ability to run blocks of code like a Jupyter notebook.</li>
+			<li>Currently, I only use Quarto when I want to include <a href="https://www.sagemath.org">SageMath</a> computations or graphics. SageMath is an open-source computer algebra system that uses a python based language.</li>
+			<li>Quarto renders .qmd files into regular .md and image files, which I then move into the obsidian repository that Quartz draws from. Quarto also allows you to render directly into html, but I wanted my more computational notes to stay consistent with the regular markdown ones and have the same wikilink capabilities.</li>
+		</ul>
+		
+		<h2>Command Cheatsheet</h2>
+		<p>A list of commands I use to preview and push my posts.</p>
+		<dl>
+			<dt>Preview of markdown only posts with Quartz:</dt>
+				<dd><code>npx quartz build --serve -d ../blog</code>, run from inside of the quartz folder in my repository.</dd>
+			<dt>Preview of computational posts with Quarto:</dt>
+				<dd><code>quarto preview [post].qmd</code></dd>
+			<dt>Render a computational post into plain markdown with Quarto:</dt>
+				<dd><code>quarto render [post].qmd</code></dd>
+			<dt>Stage + commit + push to GitHub:</dt>
+				<dd><code>git add . && git commit -m "msg" && git push</code></dd>
+		</dl>
+	</body>
+</html>
+
