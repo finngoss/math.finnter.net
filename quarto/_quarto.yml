@@ -1,0 +1,9 @@
+project:
+  type: default
+
+format: gfm
+
+jupyter: sagemath
+
+execute:
+  echo: true
