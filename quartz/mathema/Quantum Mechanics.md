@@ -1,0 +1,3 @@
+[[wave function]]
+
+[[Uncertainty Principle]]
