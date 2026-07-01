@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: mathema
+  pageTitleSuffix: something learned
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: math.finnter.net/blog
+  baseUrl: math.finnter.net/mathema
   ignorePatterns:
     - private
     - templates
@@ -94,7 +94,24 @@ plugins:
   - source: github:quartz-community/latex
     enabled: true
     options:
-      renderEngine: katex
+      renderEngine: mathjax
+      customMacros:
+        "\\P": "\\mathbb{P}"
+        "\\Z": "\\mathbb{Z}"
+        "\\Q": "\\mathbb{Q}"
+        "\\R": "\\mathbb{R}"
+        "\\C": "\\mathbb{C}"
+        "\\F": "\\mathbb{F}"
+        "\\bar": "\\overline"
+        "\\id": "\\text{id}"
+        "\\im": "\\text{im}"
+        "\\n": "\\cap"
+        "\\N": "\\bigcap"
+        "\\u": "\\cup"
+        "\\U": "\\bicup"
+        "\\SL": "\\text{SL}"
+        "\\PSL": "\\text{PSL}"
+        "\\GL": "\\text{GL}"
     order: 80
   - source: github:quartz-community/citations
     enabled: false
