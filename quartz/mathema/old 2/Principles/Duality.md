@@ -1,1 +1,0 @@
-[[Yoneda Lemma]]

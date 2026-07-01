@@ -1,1 +1,0 @@
-[[Aperiodic Order]] p. 121
