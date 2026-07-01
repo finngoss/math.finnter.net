@@ -1,4 +1,4 @@
-Microlocal Analysis is a a branch of [[Analysis]] performed on a [[cotangent bundle]], or rather, [[phase space]]. Microlocal analysts act like they can take the [[Fourier transform]] anywhere. They get away with this by defining various cutoff functions to localize a function at a single point $(x,\xi)$ in phase space.  
+Microlocal Analysis is a a branch of [[Analysis]] performed on a [[cotangent bundle]], or rather, [[phase space]]. Microlocal analysts act like they can take the [[Fourier Transform]] anywhere. They get away with this by defining various cutoff functions to localize a function at a single point $(x,\xi)$ in phase space.  
 
 
 It is analysis using both position and momentum.

@@ -12,4 +12,4 @@ f(x) = sin(x) * x
 plot(f, (x, -10, 10))
 ```
 
-![](test_files/figure-commonmark/cell-2-output-1.png)
+![](cell-2-output-1.png)
