@@ -35,7 +35,7 @@ jobs:
 
       - name: Build Quartz site
         working-directory: quartz
-        run: npx quartz build -d mathema -o ../site/blog
+        run: npx quartz build -d mathema -o ../site/mathema
 
       - name: Assemble combined site
         run: |
