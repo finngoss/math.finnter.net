@@ -1,5 +1,0 @@
-#dynamics
-
-
-[[Stochastic Mechanics]]
-

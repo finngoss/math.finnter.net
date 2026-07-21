@@ -31,6 +31,6 @@ The field tags:
 - Analysis
 - Geometry
 - Number-Theory
--  Topology
+- Topology
 - Dynamics
 

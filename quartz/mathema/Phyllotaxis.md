@@ -7,7 +7,13 @@ Spiral and Cylindrical [[Lattice]]
 
 
 [[Bernoulli Sprial]]
-[[Disc Packing]]
+
+[[Packing Problems]]
+
+
+
+
+Disc Packing
 
 [[Farey Diagram]] (tree) structure.
 

@@ -1,4 +1,5 @@
-In this page I keep track of some principles in modern mathematics. Might become educational?
+In this page I list some principles I think are fundamental to or at commonplace in mathematics.
+
 # Logical
 - Induction
 - Contradiction

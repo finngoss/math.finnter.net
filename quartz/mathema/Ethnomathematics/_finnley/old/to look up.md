@@ -9,7 +9,7 @@ sieve theory
 
 ramanujans sum
 totient summatory function
-[[old 2/Phyllotaxis]]
+
 torsion points
 
 cyclotomic polynomials

@@ -8,4 +8,6 @@
 
 
 # symmetric matrix substitutions
- 
+
+
+# true-morse subsittution

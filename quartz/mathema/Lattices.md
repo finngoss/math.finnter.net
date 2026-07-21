@@ -1,12 +1,27 @@
-#geometry #algebra #lattices #object
-
-
-
-
+#geometry #algebra #lattices #object 
 [[Geometry]]
 
+Lattices are great objects because they can be formulated in so many different languages
+- Algebraic: lattices are free abelian groups.
+- Geometric: a set of discrete points spaced at regular intervals
+- Harmonic: A tuple of periods
 
-A lattice is a free Abelian group.
+
+
+
+
+Some famous lattices:
+- $E_8$ lattice
+- Leech Lattice
+
+Books about Lattices:
+- Conway and Sloane: Sphere Packing, Lattices, and Groups
+
+
+Dual Lattice
+
+
+
 
 
 	- Fundamental Tuple of periods
@@ -19,7 +34,7 @@ A lattice is a free Abelian group.
 	- Golay Codes
 	- Voronoi Cells
 	- Relations to Tessellations, Friezes, wallpaper groups
-	- Conway + Sloane: Sphere Packing, Lattices, and Groups
+
 	- Lattice reduction
 
 - spiral lattices, farey diagrams, and phyllotactics????????

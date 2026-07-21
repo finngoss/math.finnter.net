@@ -1,13 +1,15 @@
 #field #geometry 
 
+"geometry is a job" - a mentor of mine.
 
 
-""geometry is a job" -Ro
+
+
 
 [[Sacred Islamic Geometry]]
 
 
-[[Discrete x Continuous]]
+
 
 [[Topology]]
 

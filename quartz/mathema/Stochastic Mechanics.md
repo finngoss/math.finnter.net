@@ -1,4 +1,4 @@
-Boltzmann's entropy formula
+# Boltzmann's entropy formula
 
 
 
@@ -9,4 +9,4 @@ Local to Global principle.
 
 Mulitplicity and probablity. 
 
-[[wave function]]!!
+[[Wave Function]]!!
