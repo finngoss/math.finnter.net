@@ -1,5 +1,5 @@
 #object #geometry 
-[[lattices]]
+[[Lattices]]
 [[Geometry]]
 [[Geometry of Numbers]]
 [[Sieve Methods]]

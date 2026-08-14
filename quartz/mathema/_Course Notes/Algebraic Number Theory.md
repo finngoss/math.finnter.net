@@ -11,7 +11,7 @@ These notes are based on a course taught by Sam Raskin in Spring 2026. Any error
 
 # Introduction
 ## Algebra, Algebraic Numbers, and Algebraic Integers
-As a field, [[algebra]] is roughly concerned with objects that can be described with finitary operations. Transcendental numbers like $e$ or $\pi$ require limits to compute and are more at home in analysis. The rudimentary objects of algebraic number theory are, of course, algebraic numbers!
+As a field, [[_Course Notes/Algebra]] is roughly concerned with objects that can be described with finitary operations. Transcendental numbers like $e$ or $\pi$ require limits to compute and are more at home in analysis. The rudimentary objects of algebraic number theory are, of course, algebraic numbers!
 
 > [!definition] **Algebraic Number**
 > An **<u>algebraic number</u>** is a root of a polynomial with coefficients in $\Q$. We let $\bar Q$ denote the ring of algebraic numbers, that is the algebraic closure of $\Q$.
@@ -68,7 +68,7 @@ As illustrated by the Galois exposition above, the algebra associated with a num
 # Preliminaries
 
 # Commutative Algebra Crashcourse
-will eventually be move to [[algebra]] notes.
+will eventually be move to [[_Course Notes/Algebra]] notes.
 
 # Dedekind Theory
 factorization in O_F.

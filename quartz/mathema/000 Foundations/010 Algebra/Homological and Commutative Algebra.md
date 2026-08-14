@@ -1,5 +1,5 @@
 #field #algebra 
-[[Algebra]]
+[[_Course Notes/Algebra]]
 
 [[Category Theory]]
 

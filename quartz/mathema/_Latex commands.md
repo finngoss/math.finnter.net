@@ -6,4 +6,6 @@ $$
 \newcommand{\F}{\mathbb{F}}
 \newcommand{\bar}{\overline}
 \newcommand{\O}{\mathcal O}
+\newcommand{\<}{\langle}
+\newcommand{\>}{\rangle}
 $$

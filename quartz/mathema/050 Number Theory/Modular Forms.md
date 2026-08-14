@@ -1,6 +1,6 @@
 #object 
 
-[[lattices]]
+[[Lattices]]
 
 [[elliptic curves]]
 

@@ -1,5 +1,5 @@
 #field #algebra #geometry 
-[[Algebra]] and [[Geometry]]
+[[_Course Notes/Algebra]] and [[Geometry]]
 
 
 Fall 2024 Junliang Shen

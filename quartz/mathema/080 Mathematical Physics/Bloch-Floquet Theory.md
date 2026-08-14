@@ -6,4 +6,4 @@ Bloch and Floquet, physicist and mathematician saying the same thing.
 
 [[Operator Theory]]
 
-[[Diffraction]]
+[[diffraction]]

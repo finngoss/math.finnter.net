@@ -1,6 +1,6 @@
 Gaps in my undergraduate
 - Functional Analysis
-- Intermediate complex analysis
+- complex analysis
 
 
 Things I covered in my undergraduate
@@ -42,9 +42,23 @@ Classes I'd maybe like to take:
 
 # First Year
 
-
-
 ### Fall 2026
+- First year seminar
+
+EITHER
+- MATH 511A Algebra
+- MATH 523A Real Analysis
+ - MATH 534A Topology-Geometry
+
+AND TWO OF
+- MATH 520A: Complex Analysis
+- **MATH 538: non-commutative residue and determinants of elliptic operators**
+	- cant take this AND 534A...
+- MATH 557A: Dynamical Systems and Chaos
+- MATH 559A: Lie Groups and Lie Algebras
+	- at the same time as 523A....
+
+
 
 ### Spring 2027
 - MATH 596G - Research Tutorial Group
