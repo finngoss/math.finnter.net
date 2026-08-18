@@ -1,5 +1,0 @@
-#number-theory 
-
-
-[[Number Theory]]
-
