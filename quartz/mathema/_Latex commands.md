@@ -8,4 +8,5 @@ $$
 \newcommand{\O}{\mathcal O}
 \newcommand{\<}{\langle}
 \newcommand{\>}{\rangle}
+\newcommand{\H}{\mathcal H}
 $$

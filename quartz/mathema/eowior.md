@@ -127,14 +127,10 @@ Fix a prime \(p\).
 
 Rather than counting lattice points globally, define
 
-\[
-\delta_p(M)
-=
-\mu\left(
+$$\delta_p(M) =\mu\left(
 \{x\in\mathbb Z_p^n:
 Mx\text{ is primitive}\}
-\right),
-\]
+\right),$$
 
 where \(\mu\) denotes Haar measure.
 
@@ -146,7 +142,7 @@ this recovers
 1-p^{-n}.
 \]
 
-More generally,
+2More generally,
 
 the density depends only on the Smith normal form over \(\mathbb Z_p\).
 
