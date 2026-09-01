@@ -1,5 +1,11 @@
 #object #dynamics #analysis 
-Everybody's favorite differential operator, the Laplacian. $$\Delta = \sum_{{i=1}}^n \frac{\partial}{\partial x_{i}}$$
+
+The archetypal differential and elliptic operator, the Laplacian shows up EVERYWHERE in mathematics and physics.
+$$\Delta = \sum_{{i=1}}^n \frac{\partial}{\partial x_{i}}$$
+
+The L1
+
+
 
 A natural question to ask is what do the eigenfunctions and eigenvalues of the Laplacian look like on different spaces?
 

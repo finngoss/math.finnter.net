@@ -8,6 +8,8 @@ Lattices are great objects because they can be formulated in so many different l
 
 
 
+One might characterize a lattice as a discrete, cocompact subgroup of $R^n$ with translational symmetry in $n$ directions.
+
 
 
 Some famous lattices:

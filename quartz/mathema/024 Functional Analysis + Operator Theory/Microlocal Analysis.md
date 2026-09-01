@@ -18,7 +18,7 @@ Some things in the microlocal toolkit:
 
 *** but there's a problem with this last one. Since the Fourier transform is global, it pulls far away information back to you. But microlocal analysts have a solution to this! They define various cut-off functions, some $\chi\in C^\infty(M)$, supported locally near some $x\in M$. Thus by taking the Fourier transform of $\chi u$, one is able to remove everything outside from the point they're considering.  
 
-This is usually applied to points living in the [[wave front set]], which can roughly be thought of as a subset of the cotangent bundle that captures the singularities of a function $u$ in *both position and space.* This is the heart of microlocal analysis: localizing in *both position and frequency*.
+This is usually applied to points living in the [[Wave Front set]], which can roughly be thought of as a subset of the cotangent bundle that captures the singularities of a function $u$ in *both position and space.* This is the heart of microlocal analysis: localizing in *both position and frequency*.
 
 The microlocal analog of the smooth cut-off that allowed for localization in position is the pseudo-differential operator that allows for microlocalization in the cotangent bundle.
 

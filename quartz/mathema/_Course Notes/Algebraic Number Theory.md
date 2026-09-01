@@ -11,7 +11,7 @@ These notes are based on a course taught by Sam Raskin in Spring 2026. Any error
 
 # Introduction
 ## Algebra, Algebraic Numbers, and Algebraic Integers
-As a field, [[_Course Notes/Algebra]] is roughly concerned with objects that can be described with finitary operations. Transcendental numbers like $e$ or $\pi$ require limits to compute and are more at home in analysis. The rudimentary objects of algebraic number theory are, of course, algebraic numbers!
+As a field, [[Algebra]] is roughly concerned with objects that can be described with finitary operations. Transcendental numbers like $e$ or $\pi$ require limits to compute and are more at home in analysis. The rudimentary objects of algebraic number theory are, of course, algebraic numbers!
 
 > [!definition] **Algebraic Number**
 > An **<u>algebraic number</u>** is a root of a polynomial with coefficients in $\Q$. We let $\bar Q$ denote the ring of algebraic numbers, that is the algebraic closure of $\Q$.
@@ -36,13 +36,13 @@ When we expand $\Q$ to allow polynomials to split, we also expand our notion of 
 
 > [!example] Some algebraic integers
 > - any integer
-> - \sqrt2
-> - \zeta_n
+> - $\sqrt2$
+> - $\zeta_n$
 > - any root of $t^{17} - t^3 + 2$
 > - $\phi=\frac{\sqrt5+1}{2}\in\bar\Z$, while $\frac{\sqrt5}{2},\frac{1}{2}\notin\bar\Z$
 
-> [!exercise]
-> If $x\in\Q$ is an algebraic integer, then $x\in\Z$ (this is referred to as the rational root test).
+> [!exercise] Rational Root Test
+> If $x\in\Q$ is an algebraic integer, then $x\in\Z$
  
 Given that any polynomial has a finite degree, it follows that any algebraic number must live in a finite field extension of $\Q$.
 
@@ -63,10 +63,66 @@ It's necessary to pause and consider how our assumptions about arithmetic may br
 
 So how is one to do number theory in a setting where numbers themselves no longer behave as expected? The innovation algebraic number theory makes is in shifting our attention away from individual numbers and towards the world of ideals. It happens that every non-zero ideal in $\O_F$ is uniquely a product of prime ideals. This result is known as **unique factorization in Dedekind domains**, sufficiently nice domains which will be defined shortly.
 
-As illustrated by the Galois exposition above, the algebra associated with a number carries a remarkable amount of information, much of which can be translated into arithmetic statements that are right at home in classical number theory.
+As illustrated by the example above, the algebra associated with a number carries a remarkable amount of information, much of which can be translated into arithmetic statements that are right at home in classical number theory.
 
 # Preliminaries
+>[!Lemma]
+>The following are equivalent for $\omega\in\C \ (\text{or} \ \bar\Q)$:
+>1) $\omega\in\bar\Z$.
+>2) $\exists A\in M_{n\times n}(\Z)$ such that $\omega$ is an eignevalue of $A$.
+>3) $\exists$ a finite free, finitely generated free Abelian group $\Lambda\simeq\Z^n$ and $T:\Lambda\to\Lambda$ so that $\omega$ is an eigenvalue of $T\otimes \C:\Lambda\otimes\C\to\Lambda\otimes\C$.
 
+>[!proof]
+> (2) $\Rightarrow$ (1): $\omega$ is a root of a monic characteristic polynomial $\det(I t-A)\in\Z[t]$.
+> (2)$\Leftrightarrow$ (3): Choose an isomorphism $\Lambda\simeq\Z^n$ and take $T$ to be the $n\times n$ matrix $A$ representing this lattice. Note that $\Lambda\otimes\C\simeq\C^n$.
+> (1)$\Rightarrow$(2): Let $\omega$ be a root of $f=t^n+a_{n-1}t^{n-1}+\dots+a_0$. Consider $A=\begin{pmatrix}0 & \dots & \dots & -a_0\\ 1& 0 &\dots &\vdots\\ \vdots & \ddots & \ddots & \vdots \\ \dots & \dots & 1 &-a_{n-1}\end{pmatrix}\in M_{n\times n}(\Z)$. The characteristic polynomial of $A$ is $f$.
+
+>[!remark]
+> For what its worth, if $f$ is a degree $n$ polynomial in $\Z[t]$ then $\Lambda=\Z[t]/(f)$ has basis $\{1,t,\dots,t^{n-1}\}$. $\Lambda$ has an endomorphism which is multiplication by $t$, which is exactly the matrix $A$ from the proof above.
+
+>[!proposition]
+> $\bar\Z$ is a ring
+
+>[!proof]
+
+>[!proposition]
+>Fix $F/\Q$ field extension of degree $d$. Then $\O_F\simeq\Z^d$ as an additive group.
+
+>[!example] Gaussian Integers
+>$F=\Q(i). \O_F\simeq\Z[i]\simeq\Z^2$.
+
+>[!Lemma]
+>$\exists\Lambda_1\subset\O_F$ subgroup isomorphic to $\Z^d$
+
+>[!lemma]
+>$\exists \O_F\subset\Lambda_2\subset F$ with $\Lambda_2\simeq \Z^d$
+
+These two lemmas imply the proposition.
+
+>[!claim]
+> suppose $\omega\in F$. THen $\exists N\geq 1$ such that $N\omega\in\bar\Z$.
+
+proof proof proof
+
+Given $x\in L$, consider the map multiplication by x. $\mult_x: L\to L$ that is $K$-linear.
+
+$\tr(x)=\tr(\mult_x). \Nm(x)=\Nm(\mult_x)$. Note that trace is additive $\tr(x+y)=\tr(x)+\tr(y)$ and norm is multiplicative $\Nm(xy)=\Nm(x)\Nm(y)$. Oh and that trace and norm are always in the base field $K$.
+
+
+
+>[!example]
+>$K=\R, L=\C, x=a+bi, a,b\in\R$. Use basis $\{1,i\}$.
+>$\mult_x(1)=a+bi=\begin{pmatrix}a\\ b\end{pmatrix}$
+>$\mult_x(i)=-b+ai=\begin{pmatrix}-b\\ a\end{pmatrix}$
+>$\mult_x=\begin{pmatrix}a &-b\\ b & a\end{pmatrix}$
+>$\tr(x)=2a=x+\bar x$
+>$\Nm(x)=a^2+b^2=x\bar x$.
+
+Actually L$ doesn't need to be a field, just a finite dimensional $K$-algebra.
+
+more proof
+
+trace pairiing 
 # Commutative Algebra Crashcourse
 will eventually be move to [[_Course Notes/Algebra]] notes.
 

@@ -1,0 +1,1 @@
+the wave front set $WF(f)$ of a function $f$ is the set of singularities in phase space.
