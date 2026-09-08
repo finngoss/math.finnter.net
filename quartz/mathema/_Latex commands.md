@@ -23,10 +23,16 @@ $$
 \usepackage{amssymb}
 \usepackage[OT1]{fontenc}
 \newcommand{\a}{\alpha}
+\newcommand{\b}{\beta}
+\newcommand}{\g}{\gamma}
+\newcommand{\del}{\delta}
+\newcommand{\Del}{\Delta}
+\newcommand{\eps}{\epsilon}
 \newcommand{\E}{\mathcal E}
 \newcommand{\mult}{\text{mult}}
 \newcommand{\tr}{\text{tr}}
 \newcommand{\Nm}{\text{Nm}}
+\newcommand{\loc}{\text{loc}}
 $$
 
 

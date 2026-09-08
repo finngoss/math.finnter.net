@@ -26,13 +26,10 @@ Things I really want to do more of!
 
 # Fall 2026
 Courses:
-- MATH 504 History of Mathematics
-- MATH 519: Topics in Number Theory and Combinatorics
 - MATH 520A: Complex Analysis
-	- or MATH 524: Theory of Complex Variables??
-- MATH 528A: Banach or Hilbert Spaces
-- MATH 559A: Lie Groups and Lie Algebras
-- MATH 576A: Numerical Analysis PDE
+- MATH 523A: Real Analysis
+- MATH 538: Elliptic Operators
+
 
 # Spring 2026
 - MATH 546: Theory of Numbers
