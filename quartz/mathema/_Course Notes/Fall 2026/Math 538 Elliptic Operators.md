@@ -461,7 +461,7 @@ Let $a_j\in \mathcal S^{m_j}, m_j\to\infty$ monotonic decreasing. (sequence of H
 
 >[!proof]
 >To make sums convergent, we have to regularize. we can take excising function (0 in neighborhood of 0, 1 outside that neighborhood, like opposite of a cut-off).
->Take excising function $\psi(\x)\in C^\infty, \psi(\x)=0$ if $|\x|\leq \epsilon$ and $\psi(\x)=1$ if $|\x|\geq 1$. For some $t_j\to\infty$ take $a(x,\x)=\sum_{i=1}^\infty \psi(\frac{\x}{t_j})a_j (x,\x)$.
+>Take excising function $\psi(\x)\in C^\infty, \psi(\x)=0$ if $|\x|\leq \frac1 2$ and $\psi(\x)=1$ if $|\x|\geq 1$. For some $t_j\to\infty$ take $a(x,\x)=\sum_{i=1}^\infty \psi(\frac{\x}{t_j})a_j (x,\x)$.
 >Now we just need to take the difference.
 >Note that $|x|\leq M$ becuase 
 >Let $b_k(x,\x)=a-\sum_{j=1}^k a_j$.
@@ -472,7 +472,13 @@ Let $a_j\in \mathcal S^{m_j}, m_j\to\infty$ monotonic decreasing. (sequence of H
 >$\leq C\sum_j\sum_{\gamma\leq\b} t_j^{-|\gamma|}\<\x\>^{m_j-|\beta-\gamma|}|\partial_\x^\gamma \phi(\frac\x{t_j})$
 >For fixed $j$, if $|\x|\leq\frac{t_j}2$, then the $\psi$ term is 0 for $\gamma\neq 0.
 >If $|\x|\geq t_j$, then the term is 1 if $\gamma=0$.
->
+> Basically, have to break in two parts and get a series, and choose $t_j$ to make series converge.
+> read rest of proof in Shubin.
+
+next time, another theorem that tells us an easier way to check that something is an asymptotic series. we want to construct an algebra.
+- closure of Ps.D.O.s under product
+- closure under adjoints
+- respects change of variables (needed for all this on manifolds!)
 
 
 
