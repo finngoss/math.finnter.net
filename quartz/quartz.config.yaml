@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: mathema
-  pageTitleSuffix: something learned
+  pageTitleSuffix:
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -102,16 +102,34 @@ plugins:
         "\\R": "\\mathbb{R}"
         "\\C": "\\mathbb{C}"
         "\\F": "\\mathbb{F}"
+        "\\O": "\\mathcal{O}"
+        "\\D": "\\mathcal{D}"
+        "\\H": "\\mathcal{H}"
+        "\\E": "\\mathcal{E}"
+        "\\<": "\\langle"
+        "\\>": "\\rangle"
         "\\bar": "\\overline"
-        "\\id": "\\text{id}"
-        "\\im": "\\text{im}"
+        "\\d": "\\partial"
         "\\n": "\\cap"
         "\\N": "\\bigcap"
         "\\u": "\\cup"
-        "\\U": "\\bicup"
-        "\\SL": "\\text{SL}"
-        "\\PSL": "\\text{PSL}"
-        "\\GL": "\\text{GL}"
+        "\\U": "\\bigcup"
+        "\\x": "\\xi"
+        "\\L": "\\Lambda"
+        "\\l": "\\lambda"
+        "\\a": "\\alpha"
+        "\\b": "\\beta"
+        "\\g": "\\gamma"
+        "\\G": "\\Gamma"
+        "\\del": "\\delta"
+        "\\Del": "\\Delta"
+        "\\eps": "\\epsilon"
+        "\\mult": "\\text{mult}"
+        "\\tr": "\\text{tr}"
+        "\\Nm": "\\text{Nm}"
+        "\\loc": "\\text{loc}"
+        "\\Res": "\\text{Res}"
+        "\\supp": "\\text{supp}"
     order: 80
   - source: github:quartz-community/citations
     enabled: false
